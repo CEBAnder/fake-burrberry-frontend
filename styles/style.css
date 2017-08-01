@@ -1,4 +1,46 @@
-#logo-image {
+html {
+    font-size: 16px;
+    width: 20rem;
+}
+
+.logo-image-div {
     display: flex;
-    justify-content: center;
+    justify-content: center;   
+    border-bottom-style: solid;
+    border-bottom-color: #c6c6c6;
+}
+
+.logo-image {
+    padding-top: 1rem;
+    padding-bottom: 1rem;  
+}
+
+.clothes-name {
+    margin-left : 1rem;
+    margin-right: 1rem;
+    margin-top: 0; 
+    margin-bottom: 1rem;
+    font-family: Lora;
+    font-size: 1.25rem;
+    text-align: left;
+    color: #171717; 
+    padding-top: 1rem;   
+}
+
+.clothes-image {
+    margin-left: -.36em;
+}
+
+.clothes-images {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.current-clothes-price {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-family: Raleway;
+    font-size: 1rem;
+    text-align: left;
+    color: #171717;
 }
