@@ -31,7 +31,7 @@ body {
 }
 
 .clothes-image {
-    margin-left: -.36em;
+    margin-left: 0;
 }
 
 .clothes-images {
@@ -144,6 +144,9 @@ body {
 .button-header {
     display: flex;
     justify-content: space-between;
+    font-family: Raleway;
+    font-size: 1rem;
+    color: #171717;
 }
 
 .item-properties-list {
@@ -154,4 +157,20 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
+    font-family: Lora;
+    text-align: left;
+    color: #171717;
+}
+
+.properties-button {
+    background-color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.button-text {
+    font-family: Lora;
+    text-align: left;
+    color: #171717;
 }
