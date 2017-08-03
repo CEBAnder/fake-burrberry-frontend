@@ -1,237 +1,281 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .logo-image-div {
-    display: flex;
-    justify-content: center;   
-    border-bottom-style: solid;
-    border-bottom-color: #c6c6c6;
-    border-bottom-width: 0.0625rem;
+  display: flex;
+  justify-content: center;   
+  border-bottom-style: solid;
+  border-bottom-color: #c6c6c6;
+  border-bottom-width: 0.0625rem;
 }
 
 .logo-image {
-    padding-top: 1rem;
-    padding-bottom: 1rem;  
+  padding-top: 1rem;
+  padding-bottom: 1rem;  
 }
 
 .clothes-name {
-    margin-left : 1rem;
-    margin-right: 1rem;
-    margin-top: 0; 
-    margin-bottom: 1rem;
-    font-family: Lora;
-    line-height: 1.2;
-    font-size: 1.25rem;
-    font-weight: normal;
-    text-align: left;
-    color: #171717; 
-    padding-top: 1rem;   
+  margin-left : 1rem;
+  margin-right: 1rem;
+  margin-top: 0; 
+  margin-bottom: 1rem;
+  padding-top: 1rem;  
+  font-family: Lora;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: left;
+  color: #171717;    
 }
 
 .clothes-image {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .clothes-images {
-    display: flex;
-    justify-content: flex-start;
-    overflow-x: scroll;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: scroll;
 }
 
 .clothes-basic-info {
-    display: flex;
-    justify-content: space-between;    
+  display: flex;
+  justify-content: space-between;    
 }
 
 .current-clothes-price {
-    padding-left: 1rem;
-    padding-top: 1rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-family: Raleway;
-    font-size: 1rem;
-    font-weight: normal;
-    text-align: left;
-    color: #171717;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+  color: #171717;
 }
 
 .current-clothes-id {
-    font-family: Raleway;
-    font-size: 0.75rem;
-    line-height: 1.33;
-    color: #171717;
-    margin-top: 1.125rem;
-    margin-right: 1rem;
+  margin-top: 1.125rem;
+  margin-right: 1rem;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  line-height: 1.33;
+  color: #171717;  
 }
 
 .current-clothes-colour {
-    font-family: Raleway;
-    font-size: 0.75rem;
-    line-height: 1.33;
-    color: #171717;
-    margin-top: 0;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+  margin-top: 0;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  line-height: 1.33;
+  color: #171717;  
 }
 
 .clothes-colours-buttons {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .black-color-button {
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 100px;
-    background-color: #000000;
-    border: solid 1px #000000;
-    margin-left: 1rem;
+  margin-left: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100px;
+  background-color: #000000;
+  border: solid 1px #000000;  
 }
 
 .honey-color-button {
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 100px;
-    background-color: #cfa880;
-    border: solid 1px #232122;
-    margin-left: 1rem;
+  margin-left: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100px;
+  background-color: #cfa880;
+  border: solid 1px #232122;  
 }
 
 .colors-options-divide-line {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
   border-top: 0.0625rem;
   border-radius: 0.125rem;
   border-bottom: 0;
   border-style: solid;
   border-color: #c6c6c6;
-  line-height: 1.33;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 0.9375rem;
-  margin-right: 0.9375rem;
+  line-height: 1.33;  
 }
 
 .item-options {
-    display: flex;
-    flex-flow: column;
-    padding-bottom: 3rem;
-    border-bottom: solid 1px #c6c6c6;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 2.5rem;
 }
 
 .select-size-button {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 2px;
-    background-color: #171717;
-    border: solid 1px #171717;
-    font-family: Raleway;
-    font-size: 12px;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2px;
+  background-color: #171717;
+  border: solid 1px #171717;
+  font-family: Raleway;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;  
 }
 
 .find-store-button {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 2px;
-    border: solid 1px #999999;
-    font-family: Raleway;
-    font-size: 12px;
-    text-align: center;
-    color: #171717;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2px;
+  border: solid 1px #999999;
+  font-family: Raleway;
+  font-size: 12px;
+  text-align: center;
+  color: #171717;  
+  background-color: white;
 }
 
 .size-help-button {
-    align-self: flex-start;
-    margin-top: 0.5rem;
-    font-family: Raleway;
-    font-size: 12px;
-    text-align: center;
-    color: #171717;
-    border: none;
-    background-color: white;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  padding: 0;
+  font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1rem;
+  text-align: left;
+  color: #171717;
+  background-color: transparent;
+  border: none;   
 }
 
-.button-header {
-    display: flex;
-    justify-content: space-between;
-    font-family: Raleway;
-    font-size: 1rem;
-    color: #171717;
+.thin-horizontal {
+  border-top: 0.0625rem;
+  color: #c6c6c6;
+}
+
+.item-accordeon-pane {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.item-accordeon-header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.item-accordeon-header-name-container {   
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.item-accordeon-header-name {
+  margin: 0;
+  font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: #171717;
+}
+
+.accordeon-pane-opened:after {
+  content: url(../images/interface_images/triangle.svg);
+}
+
+.accordeon-pane-closed:after {
+  content: url(../images/interface_images/reverse-triangle.svg);
+}
+
+.item-accordeon-pane-entry {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-family: Lora;
+  font-size: 14px;
+  line-height: 1.5rem;
+  color: #171717;
+}
+
+.item-description {
+  margin: 0;
 }
 
 .item-properties-list {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    align-items: left; 
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
-    font-family: Lora;
-    text-align: left;
-    color: #171717;
+  margin: 0;
+  padding: 0;
 }
 
-.properties-button {
-    background-color: white;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+.item-property {
+  display: block;
 }
 
 .button-text {
-    font-family: Lora;
-    text-align: left;
-    color: #171717;
+  font-family: Lora;
+  text-align: left;
+  color: #171717;
 }
 
 .we-recommend-block {
-    display: flex;
-    flex-flow: column;
-    margin-top: 3rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;  
+  display: flex;
+  flex-flow: column;  
 }
 
 .we-recommend-string {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .we-recommend-label {
-    margin-top: 0;    
-    border-bottom-style: solid;
-    border-bottom-color: #171717;
-    border-bottom-width: 0.0625rem;
-    font-family: Raleway;
-    font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;    
+  border-bottom-style: solid;
+  border-bottom-color: #171717;
+  border-bottom-width: 0.0625rem;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-family: Raleway;
+  line-height: 1.19;
+  text-align: left;
+  color: #171717;
 }
 
 .we-recommend-images-row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .we-recommend-image {
-    width: 130px;
-    height: 174px;
+  width: 130px;
+  height: 174px;
 }
 
 .we-recommend-item-name {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
   font-family: Lora;
   font-size: 1rem;
   text-align: left;
@@ -241,41 +285,46 @@ body {
 }
 
 .we-recommend-item-info {
-    flex-basis: 8.125rem;
+  flex-basis: 8.125rem;
 }
 
 .we-recommend-item-price {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
   font-family: Raleway;
   font-size: 0.875rem;
   text-align: left;
   color: #999999;
   line-height: 1.17;
-  font-size: 0.75rem;
+  font-size: 0.75rem;  
+  font-weight: normal;
 }
 
 .more-for-you-section {
-    margin-left: 1rem;
-    display: flex;
-    flex-flow: column;
-    margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: column;
 }
 
 .more-for-you-string {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .more-for-you-label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;  
+  border-bottom-style: solid;
+  border-bottom-color: #171717;  
+  border-bottom-width: 0.0625rem;
   font-family: Raleway;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.19;
   text-align: left;
-  color: #171717;
-  border-bottom-style: solid;
-  border-bottom-color: #171717;  
-  border-bottom-width: 0.0625rem;
-  margin-bottom: 0.5rem;
+  color: #171717;  
 }
 
 .more-for-you-item-name {
@@ -289,15 +338,17 @@ body {
 }
 
 .page-footer-options {
-    background-color: #f3f3f3;
-    padding-left: 1rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    display: flex;
-    flex-flow: column;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-flow: column;
+  background-color: #f3f3f3;
 }
 
 .need-help-label {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   font-family: Raleway;
   font-size: 1rem;
   font-weight: bold;
@@ -324,4 +375,5 @@ body {
   background-color: #f3f3f3;
   border: none;
   margin-bottom: 1rem;
+  padding: 0 0 0 0;
 }
