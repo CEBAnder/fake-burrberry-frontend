@@ -52,7 +52,7 @@ body {
   padding-left: 1rem;
   padding-top: 1rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.0625rem;
   font-family: Raleway;
   font-size: 1rem;
   font-weight: normal;
@@ -125,7 +125,7 @@ body {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 1.0625rem;
   padding-bottom: 1rem;
   border-radius: 2px;
   background-color: #171717;
@@ -140,7 +140,7 @@ body {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 1.0625rem;
   padding-bottom: 1rem;
   border-radius: 2px;
   border: solid 1px #999999;
@@ -179,7 +179,8 @@ body {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;  
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .item-accordeon-header-name-container {   
@@ -203,7 +204,8 @@ body {
 }
 
 .accordeon-pane-closed:after {
-  content: url(../images/interface_images/reverse-triangle.svg);
+  content: url(../images/interface_images/triangle.svg);
+  transform: rotate(180deg);
 }
 
 .item-accordeon-pane-entry {
@@ -235,7 +237,7 @@ body {
 }
 
 .we-recommend-block {
-  margin-top: 3rem;
+  margin-top: 2.9375rem;
   margin-left: 1rem;
   margin-right: 1rem;  
   display: flex;
@@ -331,7 +333,7 @@ body {
   font-family: Lora;
   font-size: 0.875rem;
   font-style: italic;
-  line-height: 1.21;
+  line-height: 1.0625rem;
   text-align: left;
   color: #171717;
   margin-top: 1rem;
@@ -340,15 +342,16 @@ body {
 .page-footer-options {
   padding-left: 1rem;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 2.0625rem;
   display: flex;
   flex-flow: column;
   background-color: #f3f3f3;
 }
 
 .need-help-label {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 0.4375rem;
+  margin-bottom: 1.0625rem;
+  margin-right: 1rem;
   font-family: Raleway;
   font-size: 1rem;
   font-weight: bold;
@@ -358,6 +361,7 @@ body {
 }
 
 .contacts-link {
+  margin-right: 1rem;
   font-family: Lora;
   font-size: 0.875rem;
   font-style: italic;
@@ -374,6 +378,6 @@ body {
   color: #999999;
   background-color: #f3f3f3;
   border: none;
-  margin-bottom: 1rem;
+  margin-bottom: 1.0625rem;
   padding: 0 0 0 0;
 }
