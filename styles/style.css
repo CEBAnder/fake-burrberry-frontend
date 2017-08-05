@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .logo-image-div {
@@ -127,7 +127,7 @@ body {
   padding-bottom: 2.5rem;
 }
 
-.select-size-button {
+.button-select-size {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
@@ -142,7 +142,7 @@ body {
   color: #ffffff;  
 }
 
-.find-store-button {
+.button-find-store {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
@@ -157,7 +157,7 @@ body {
   background-color: white;
 }
 
-.size-help-button {
+.button-size-help {
   margin-left: 1rem;
   margin-top: 0.5rem;
   padding: 0;
@@ -175,12 +175,12 @@ body {
   color: #c6c6c6;
 }
 
-.item-accordeon-pane {
+.product-accordeon-pane {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.item-accordeon-header {
+.product-accordeon-header {
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
@@ -189,13 +189,13 @@ body {
   align-items: center; 
 }
 
-.item-accordeon-header-name-container {   
+.product-accordeon-header-name-container {   
   padding: 0;
   background-color: transparent;
   border: none;
 }
 
-.item-accordeon-header-name {
+.product-accordeon-header-name {
   margin: 0;
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -214,7 +214,7 @@ body {
   transform: rotate(180deg);
 }
 
-.item-accordeon-pane-entry {
+.product-accordeon-pane-entry {
   margin-top: 0;
   margin-bottom: 2rem;
   font-family: Lora, serif;
@@ -223,16 +223,16 @@ body {
   color: #171717;
 }
 
-.item-description {
+.product-description {
   margin: 0;
 }
 
-.item-properties-list {
+.product-properties-list {
   margin: 0;
   padding: 0;
 }
 
-.item-property {
+.product-property {
   display: block;
 }
 
@@ -262,9 +262,9 @@ body {
   border-bottom-style: solid;
   border-bottom-color: #171717;
   border-bottom-width: 0.0625rem;
-  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 1rem;
   font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
+  font-weight: normal;
   line-height: 1.19;
   text-align: left;
   color: #171717;
@@ -371,7 +371,7 @@ body {
   font-family: Lora, serif;
   font-size: 0.875rem;
   font-style: italic;
-  line-height: 1.21;
+  line-height: 1.25;
   text-align: center;
   color: #171717;
 }
@@ -379,7 +379,7 @@ body {
 .footer-button {
   font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 0.75rem;
-  line-height: 1.33;
+  line-height: 1.34;
   text-align: left;
   color: #999999;
   background-color: #f3f3f3;
