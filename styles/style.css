@@ -14,6 +14,10 @@ body {
   border-bottom-width: 0.0625rem;
 }
 
+.logo-link {
+  display: block;
+}
+
 .logo-image {
   padding-top: 1rem;
   padding-bottom: 1rem;  
@@ -25,7 +29,7 @@ body {
   margin-top: 0; 
   margin-bottom: 1rem;
   padding-top: 1rem;  
-  font-family: Lora;
+  font-family: Lora, serif;
   line-height: 1.2;
   font-size: 1.25rem;
   font-weight: normal;
@@ -53,7 +57,7 @@ body {
   padding-top: 1rem;
   margin-top: 0;
   margin-bottom: 1.0625rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 1rem;
   font-weight: normal;
   text-align: left;
@@ -63,7 +67,7 @@ body {
 .current-clothes-id {
   margin-top: 1.125rem;
   margin-right: 1rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 0.75rem;
   line-height: 1.33;
   color: #171717;  
@@ -73,7 +77,7 @@ body {
   margin-top: 0;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 0.75rem;
   line-height: 1.33;
   color: #171717;  
@@ -91,6 +95,7 @@ body {
   border-radius: 100px;
   background-color: #000000;
   border: solid 1px #000000;  
+  font-size: 0;
 }
 
 .honey-color-button {
@@ -99,7 +104,8 @@ body {
   width: 2.5rem;
   border-radius: 100px;
   background-color: #cfa880;
-  border: solid 1px #232122;  
+  border: solid 1px #232122; 
+  font-size: 0; 
 }
 
 .colors-options-divide-line {
@@ -130,7 +136,7 @@ body {
   border-radius: 2px;
   background-color: #171717;
   border: solid 1px #171717;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 12px;
   text-align: center;
   color: #ffffff;  
@@ -144,7 +150,7 @@ body {
   padding-bottom: 1rem;
   border-radius: 2px;
   border: solid 1px #999999;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 12px;
   text-align: center;
   color: #171717;  
@@ -211,7 +217,7 @@ body {
 .item-accordeon-pane-entry {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-family: Lora;
+  font-family: Lora, serif;
   font-size: 14px;
   line-height: 1.5rem;
   color: #171717;
@@ -231,13 +237,13 @@ body {
 }
 
 .button-text {
-  font-family: Lora;
+  font-family: Lora, serif;
   text-align: left;
   color: #171717;
 }
 
 .we-recommend-block {
-  margin-top: 2.9375rem;
+  margin-top: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;  
   display: flex;
@@ -256,9 +262,9 @@ body {
   border-bottom-style: solid;
   border-bottom-color: #171717;
   border-bottom-width: 0.0625rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 1rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   line-height: 1.19;
   text-align: left;
   color: #171717;
@@ -278,7 +284,7 @@ body {
 .we-recommend-item-name {
   margin-top: 0.5rem;
   margin-bottom: 0;
-  font-family: Lora;
+  font-family: Lora, serif;
   font-size: 1rem;
   text-align: left;
   color: #171717;
@@ -293,7 +299,7 @@ body {
 .we-recommend-item-price {
   margin-top: 0.5rem;
   margin-bottom: 2rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 0.875rem;
   text-align: left;
   color: #999999;
@@ -321,7 +327,7 @@ body {
   border-bottom-style: solid;
   border-bottom-color: #171717;  
   border-bottom-width: 0.0625rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.19;
@@ -330,7 +336,7 @@ body {
 }
 
 .more-for-you-item-name {
-  font-family: Lora;
+  font-family: Lora, serif;
   font-size: 0.875rem;
   font-style: italic;
   line-height: 1.0625rem;
@@ -342,7 +348,7 @@ body {
 .page-footer-options {
   padding-left: 1rem;
   padding-bottom: 2rem;
-  padding-top: 2.0625rem;
+  padding-top: 2rem;
   display: flex;
   flex-flow: column;
   background-color: #f3f3f3;
@@ -350,9 +356,9 @@ body {
 
 .need-help-label {
   margin-top: 0.4375rem;
-  margin-bottom: 1.0625rem;
+  margin-bottom: 1rem;
   margin-right: 1rem;
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 1rem;
   font-weight: bold;
   line-height: 1.19;
@@ -362,7 +368,7 @@ body {
 
 .contacts-link {
   margin-right: 1rem;
-  font-family: Lora;
+  font-family: Lora, serif;
   font-size: 0.875rem;
   font-style: italic;
   line-height: 1.21;
@@ -371,7 +377,7 @@ body {
 }
 
 .footer-button {
-  font-family: Raleway;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   font-size: 0.75rem;
   line-height: 1.33;
   text-align: left;
@@ -379,5 +385,5 @@ body {
   background-color: #f3f3f3;
   border: none;
   margin-bottom: 1.0625rem;
-  padding: 0 0 0 0;
+  padding: 0;
 }
