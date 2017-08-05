@@ -387,3 +387,42 @@ body {
   margin-bottom: 1.0625rem;
   padding: 0;
 }
+
+.item-shipping-bold-text {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 700;
+}
+
+.item-shipping-text {
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+  font-family: Raleway, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
+.footer-column-header {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 700;
+  color: #171717;
+}
+
+.footer-column-item {
+  display: block;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #999999;
+}
